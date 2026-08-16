@@ -16,16 +16,27 @@ val libraryName = "MapConductor BOM"
 val libraryDescription = "Bill of Materials for MapConductor unified mapping library"
 
 // Module information with their project paths, artifact IDs, and versions
+// 公開している全モジュール。**artifactId は各モジュールの build.gradle.kts の
+// libraryArtifactId と一致させること。** 1.3.1 では "geojson-layer" と書かれて
+// いたが実際の artifactId は "geojson" で、BOM が存在しない座標を指していた。
+// android-for-template は公開対象外なので載せない。
 val moduleInfo = mapOf(
     "core" to getModuleVersion(":android-sdk-core"),
+    "compose" to getModuleVersion(":android-sdk-compose"),
     "for-arcgis" to getModuleVersion(":android-for-arcgis"),
     "for-googlemaps" to getModuleVersion(":android-for-googlemaps"),
     "for-here" to getModuleVersion(":android-for-here"),
+    "for-longdo" to getModuleVersion(":android-for-longdo"),
     "for-mapbox" to getModuleVersion(":android-for-mapbox"),
     "for-maplibre" to getModuleVersion(":android-for-maplibre"),
-    "icons" to getModuleVersion(":android-icons"),
+    "for-mappls" to getModuleVersion(":android-for-mappls"),
+    "for-maptiler" to getModuleVersion(":android-for-maptiler"),
+    "for-openmobilemaps" to getModuleVersion(":android-for-openmobilemaps"),
+    "for-tomtom" to getModuleVersion(":android-for-tomtom"),
+    "geojson" to getModuleVersion(":android-geojson-layer"),
     "heatmap" to getModuleVersion(":android-heatmap"),
-    "geojson-layer" to getModuleVersion(":android-geojson-layer"),
+    "icons" to getModuleVersion(":android-icons"),
+    "kml" to getModuleVersion(":android-kml"),
     "marker-clustering" to getModuleVersion(":android-marker-clustering"),
 )
 
