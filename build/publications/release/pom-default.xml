@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mapconductor</groupId>
   <artifactId>mapconductor-bom</artifactId>
-  <version>1.3.0</version>
+  <version>1.3.1</version>
   <packaging>pom</packaging>
   <name>MapConductor BOM</name>
   <description>Bill of Materials for MapConductor unified mapping library</description>
@@ -37,52 +37,87 @@
       <dependency>
         <groupId>com.mapconductor</groupId>
         <artifactId>core</artifactId>
-        <version>1.3.0</version>
+        <version>1.3.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>compose</artifactId>
+        <version>1.3.1</version>
       </dependency>
       <dependency>
         <groupId>com.mapconductor</groupId>
         <artifactId>for-arcgis</artifactId>
-        <version>1.3.0</version>
+        <version>1.3.1</version>
       </dependency>
       <dependency>
         <groupId>com.mapconductor</groupId>
         <artifactId>for-googlemaps</artifactId>
-        <version>1.3.0</version>
+        <version>1.3.1</version>
       </dependency>
       <dependency>
         <groupId>com.mapconductor</groupId>
         <artifactId>for-here</artifactId>
-        <version>1.3.0</version>
+        <version>1.3.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>for-longdo</artifactId>
+        <version>1.3.1</version>
       </dependency>
       <dependency>
         <groupId>com.mapconductor</groupId>
         <artifactId>for-mapbox</artifactId>
-        <version>1.3.0</version>
+        <version>1.3.1</version>
       </dependency>
       <dependency>
         <groupId>com.mapconductor</groupId>
         <artifactId>for-maplibre</artifactId>
-        <version>1.3.0</version>
+        <version>1.3.1</version>
       </dependency>
       <dependency>
         <groupId>com.mapconductor</groupId>
-        <artifactId>icons</artifactId>
-        <version>1.3.0</version>
+        <artifactId>for-mappls</artifactId>
+        <version>1.3.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>for-maptiler</artifactId>
+        <version>1.3.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>for-openmobilemaps</artifactId>
+        <version>1.3.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>for-tomtom</artifactId>
+        <version>1.3.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>geojson</artifactId>
+        <version>1.3.1</version>
       </dependency>
       <dependency>
         <groupId>com.mapconductor</groupId>
         <artifactId>heatmap</artifactId>
-        <version>1.3.0</version>
+        <version>1.3.1</version>
       </dependency>
       <dependency>
         <groupId>com.mapconductor</groupId>
-        <artifactId>geojson-layer</artifactId>
-        <version>1.3.0</version>
+        <artifactId>icons</artifactId>
+        <version>1.3.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>kml</artifactId>
+        <version>1.3.1</version>
       </dependency>
       <dependency>
         <groupId>com.mapconductor</groupId>
         <artifactId>marker-clustering</artifactId>
-        <version>1.3.0</version>
+        <version>1.3.1</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
