@@ -33,6 +33,9 @@ val moduleInfo = mapOf(
     "for-maptiler" to getModuleVersion(":android-for-maptiler"),
     "for-openmobilemaps" to getModuleVersion(":android-for-openmobilemaps"),
     "for-tomtom" to getModuleVersion(":android-for-tomtom"),
+    // ★ モジュール名は android-geojson-layer だが artifactId は "geojson"。
+    //    Central には 1.0.0 からこの名前で出ており、改名すると別アーティファクトになる。
+    //    android-geojson-layer/build.gradle.kts の libraryArtifactId を参照。
     "geojson" to getModuleVersion(":android-geojson-layer"),
     "heatmap" to getModuleVersion(":android-heatmap"),
     "icons" to getModuleVersion(":android-icons"),
