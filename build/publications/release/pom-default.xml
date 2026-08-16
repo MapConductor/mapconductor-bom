@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mapconductor</groupId>
+  <artifactId>mapconductor-bom</artifactId>
+  <version>1.3.0</version>
+  <packaging>pom</packaging>
+  <name>MapConductor BOM</name>
+  <description>Bill of Materials for MapConductor unified mapping library</description>
+  <url>https://github.com/MapConductor/android-sdk</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mapconductor</id>
+      <name>MapConductor Team</name>
+      <email>dev@mapconductor.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/MapConductor/android-sdk.git</connection>
+    <developerConnection>scm:git:ssh://github.com:MapConductor/android-sdk.git</developerConnection>
+    <url>https://github.com/MapConductor/android-sdk.git</url>
+  </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>core</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>for-arcgis</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>for-googlemaps</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>for-here</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>for-mapbox</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>for-maplibre</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>icons</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>heatmap</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>geojson-layer</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mapconductor</groupId>
+        <artifactId>marker-clustering</artifactId>
+        <version>1.3.0</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
